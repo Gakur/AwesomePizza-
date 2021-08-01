@@ -90,6 +90,7 @@ figcaption {
 .contact-overlay {
     height: inherit;
     background-color: green;
+    background-image: url("../images/12.jpeg");
 }
 
 input[type="email"] {
@@ -197,7 +198,7 @@ h4 {
 
 /*Background pic*/
 .landing {
-    background-image: url("../images/bc/bc6.jpg");
+    background-image: url("../images/bc/bc31.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
