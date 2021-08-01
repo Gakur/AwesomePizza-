@@ -127,67 +127,77 @@ $(function () {
                         }
                         break;
                     case size = "medium":
-                        price = 600;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                        price = 750;
+                        if (crust === "cheese-stuffed") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "thin") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "sicilian") {
+                            totalPrice = (price * number) + 300;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 380;
                         }
                         break;
                     case size = "large":
-                        price = 1200;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                        price = 1500;
+                        if (crust === "cheese-stuffed") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "thin") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "sicilian") {
+                            totalPrice = (price * number) + 300;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 380;
                         }
                         break;
                 }
                 break;
             case flavour = "bbq":
                 switch (size) {
-                    case size = "regular":
-                        price = 300;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                    case size = "small":
+                        price = 400;
+                        if (crust === "cheese-stuffed") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "thin") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "sicilian") {
+                            totalPrice = (price * number) + 300;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 380;
                         }
                         break;
                     case size = "medium":
-                        price = 600;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                        price = 750;
+                        if (crust === "cheese-stuffed") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "thin") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "sicilian") {
+                            totalPrice = (price * number) + 300;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 380;
                         }
                         break;
                     case size = "large":
-                        price = 1200;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                        price = 1500;
+                        if (crust === "cheese-stuffed") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "thin") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "sicilian") {
+                            totalPrice = (price * number) + 300;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 380;
                         }
                         break;
                 }
