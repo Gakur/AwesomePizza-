@@ -82,7 +82,7 @@ figcaption {
 }
 
 .contacts {
-    background-image: url("");
+    background-image: url("../images/12.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -181,7 +181,7 @@ h4 {
 
 .menu {
     margin-top: 30px;
-    background-image: url("");
+    background-image: url("../images/index00.jpeg");
     padding: 0;
 }
 
