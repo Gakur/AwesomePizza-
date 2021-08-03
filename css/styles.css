@@ -32,6 +32,9 @@ body {
     color: darkorange;
 
 }
+.fancy {
+    color: purple;
+}
 
 li {
     display: inline;
