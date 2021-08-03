@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
 
-/*
-'Shadows Into Light', cursive
-*/
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -28,7 +25,7 @@ body {
     color: yellow;
 }
 
-#piz-pap {
+#pizza-INN {
     font-family: 'Shadows Into Light', cursive;
     font-size: 35px;
     font-weight: normal;
@@ -253,7 +250,7 @@ figure img {
     font-family: 'Shadows Into Light', cursive;
 }
 
-.karibu-img {
+.welcome-img {
     margin-top: 10px;
     margin-left: 80px;
     margin-bottom: 130px;
@@ -301,7 +298,7 @@ figure img {
         padding-top: 40%;
     }
 
-    .karibu-txt {
+    .welcome-txt {
         margin-top: 50px;
     }
 
@@ -311,7 +308,7 @@ figure img {
         background-color: rgba(0, 0, 0, 0.7);
     }
 
-    .karibu-img {
+    .welcome-img {
         margin-left: 20px;
         margin-bottom: 10px;
         height: 300px;
@@ -336,7 +333,7 @@ figure img {
         height: 650px;
     }
 
-    .piz-pap {
+    .pizza-INN {
         font-size: 50px;
     }
 
