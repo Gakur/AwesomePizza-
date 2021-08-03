@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -160,8 +160,9 @@ h4 {
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #fff(0, 0, 0, 0.9);
     border-radius: 20px;
+    background-image: url("../images/menu/men4.jpeg");
 }
 
 .checkout {
@@ -204,6 +205,9 @@ h4 {
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
+}
+.cdata-overlay {
+    display: none;
 }
 
 #push {
@@ -273,7 +277,7 @@ figure img {
 
 /* Collapse nav start*/
 .top-nav-collapse {
-    background-color: #3f51b5 !important;
+    background-color: #ffbf00 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
