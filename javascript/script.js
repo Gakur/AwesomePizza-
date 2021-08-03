@@ -427,9 +427,6 @@ $(function () {
         let newOrder = order(flavour, size, crust, topping, number, totalPrice);
         console.log(newOrder); // test func
 
-        //create a new object
-        // let myOrder = JSON.stringify(JSON.parse(newOrder));
-
         //Write to the order
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
@@ -468,7 +465,7 @@ $(function () {
     //Pick Up
     $(".delivernot").click(function () {
         $(".summary").slideUp();
-        $(".summary").text("Your order will be ready in 10 minutes. Thank you for choosing PizzaINN").slideDown();
+        $(".summary").text("Your order will be ready in 5 minutes. Thank you for choosing PizzaINN").slideDown();
 
 
     });
