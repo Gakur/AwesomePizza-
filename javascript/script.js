@@ -443,7 +443,7 @@ $(function () {
             + newOrder.c + "<br>" + "Toppings :     "
             + newOrder.t + "<br>" + " Number of pizzas :    "
             + newOrder.n + "<br>" + "Total Price :  "
-            + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+            + newOrder.total + "<br><br>").css("font -family", "times new roman").css('font-size', '24px');
     });
 
     //Deliver
@@ -453,17 +453,20 @@ $(function () {
         $('.summary').text("Provide location details").slideDown();
         $('.deliver').hide(1000);
         $('.delivernot').hide(1000);
-        $('.cdata-overlay').slideDown();
+        $('.cdata-overlay').show();
+    });
+
+    //Click to order
+    $(".click-to-order").click(function () {
+        alert("Hello, + name, your order will be delivered at, + location in 20min");
     });
 
 
     //Pick Up
     $(".delivernot").click(function () {
+        $(".summary").slideUp();
+        $(".summary").text("Your order will be ready in 10 minutes. Thank you for choosing PizzaINN").slideDown();
 
-    });
 
-    //Scrollify
-    $(function () {
-        $.scrollify.move('#sum-order');
     });
 });
