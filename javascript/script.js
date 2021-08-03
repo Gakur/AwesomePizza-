@@ -458,7 +458,10 @@ $(function () {
 
     //Click to order
     $(".click-to-order").click(function () {
-        alert("Hello, + name, your order will be delivered at, + location in 20min");
+        cName= $("#c-name").val ();
+        phoneNumber= $("#phone-number").val ();
+        clocation= $("#location").val ();
+        alert("Hello " + cName + "your order will be delivered at " + clocation + " in 20min."  + "Thankyou for choosing PizzaINN. You are welcome again");
     });
 
 
